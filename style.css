@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Zilla+Slab:ital,wght@0,400;1,500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.nav-bar{
+     
+    background-color: rgba(186, 186, 21, 0.596);
+      
+}
+.unordered-list{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    list-style-type: none;
+    width: 100%;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+}
+li{
+    margin: 1rem 2rem;
+}
+
+.all{
+    text-decoration: none;
+    color: black;
+}
+.all:hover {
+    padding-bottom: 0.2rem;
+    border-bottom: 1.5px solid rgb(206, 26, 26);  
+    color:rgb(206, 26, 26);
+}
+
+
+
+/* Section page css styling............. */
+
+.info{
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: rgba(255, 182, 193, 0.192);
+}
+img{
+    height: 250px;
+    display: block;
+    margin: 1rem auto 2rem auto;
+    
+
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.btn{
+    background-color: rgba(119, 136, 153, 0.61);
+    border-radius: 2rem;
+    padding: 0.5rem 0.8rem;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+
+}
+span:hover{
+    border-bottom: 1px solid rgb(206, 26, 26) ;
+    color: rgb(206, 26, 26);
+    
+}
+h1{
+
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkcyan;
+}
+p{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    width: 1200px;
+    text-align: left;
+    
+}
+.about{
+
+    font-weight: 500;
+    text-align: left;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+    width: 9%;
+    letter-spacing: 0.1rem;
+}
+.experience{
+    font-weight: 500;
+    text-align: left;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+    width: 10%;
+    letter-spacing: 0.1rem;
+}
